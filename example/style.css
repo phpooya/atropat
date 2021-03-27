@@ -1,0 +1,21 @@
+.w {
+    font-family: tahoma;
+    font-size: 12px;
+    height: 27px;
+    background-color: #f3f3f3;
+    width: 280px;
+    margin: 0 1px 1px 0;
+    display: inline-block;
+    position: relative;
+}
+.w span:first-child {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.w span:last-child {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}

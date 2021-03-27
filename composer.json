@@ -1,0 +1,21 @@
+{
+    "name": "poooyae/atropat",
+    "description": "Persian name translator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pooya",
+            "email": "peraghi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "pooyae\\atropat\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*"
+    }
+}
