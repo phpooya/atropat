@@ -1,7 +1,7 @@
 <?php
 
-use pooyae\atropat\Translator;
-use pooyae\atropat\packages\EN;
+use phpooya\atropat\Translator;
+use phpooya\atropat\packages\EN;
 
 require __DIR__ . "/../vendor/autoload.php";
 

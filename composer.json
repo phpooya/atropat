@@ -1,5 +1,5 @@
 {
-    "name": "poooyae/atropat",
+    "name": "phpooya/atropat",
     "description": "Persian name translator",
     "type": "library",
     "license": "MIT",
@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "pooyae\\atropat\\": "src/"
+            "phpooya\\atropat\\": "src/"
         }
     },
     "require": {

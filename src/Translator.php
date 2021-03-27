@@ -1,8 +1,8 @@
 <?php
 
-namespace pooyae\atropat;
+namespace phpooya\atropat;
 
-use pooyae\atropat\packages\PackageInterface;
+use phpooya\atropat\packages\PackageInterface;
 
 /**
  * Class Translator

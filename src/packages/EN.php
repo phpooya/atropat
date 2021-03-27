@@ -1,6 +1,6 @@
 <?php
 
-namespace pooyae\atropat\packages;
+namespace phpooya\atropat\packages;
 
 class EN implements PackageInterface
 {
