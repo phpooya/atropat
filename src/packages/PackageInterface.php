@@ -9,4 +9,5 @@ interface PackageInterface
     public function endWith();
     public function spaces();
     public function keep();
+    public function words();
 }

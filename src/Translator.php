@@ -27,6 +27,9 @@ class Translator
 
         $words = array_map(function ($word) {
 
+            // word Replace
+            $word = strtr($word, $this->package->words());
+
             // Begin with
             foreach ($this->package->beginWith() as $chr => $to) {
                 $regex = "/^$chr(.+)/";

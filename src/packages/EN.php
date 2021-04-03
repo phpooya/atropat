@@ -63,4 +63,49 @@ class EN implements PackageInterface
     {
         return '/[^a-zA-Z\s]/';
     }
+
+    public function words()
+    {
+        return [
+            'جعفری'    => 'jafari',
+            'نوید'     => 'navid',
+            'کیوان'    => 'keyvani',
+            'کاوه'     => 'kaveh',
+            'عارف'     => 'aref',
+            'داوود'    => 'davood',
+            'ایمانی'   => 'emani',
+            'عادل'     => 'adel',
+            'نواب'     => 'navab',
+            'دماوندی'  => 'damavandi',
+            'نوایی'    => 'navae',
+            'زوار'     => 'zavar',
+            'گیوی'     => 'givi',
+            'شیروان'   => 'shirvan',
+            'عامر'     => 'amer',
+            'خداوردی'  => 'khodaverdi',
+            'نویدی'    => 'navidi',
+            'وحیدی'    => 'vahidi',
+            'عیوضی'    => 'eyvazi',
+            'پروین'    => 'parvin',
+            'هروی'     => 'heravi',
+            'دلاوری'    => 'delavari',
+            'حسنوند'   => 'hasanvandi',
+            'شاهسون'   => 'shahsavan',
+            'آور'      => 'avar',
+            'یاور'     => 'yavar',
+            'صحرانورد' => 'sahranavard',
+            'هادوی'    => 'hadavi',
+            'داورپناه' => 'davarpanah',
+            'نوآوران'  => 'noavaran',
+            'سروین'    => 'servin',
+            'درویشی'   => 'darvishi',
+            'نبوی'     => 'nabavi',
+            'صفوی'     => 'safavi',
+            'فناوری'   => 'fanavari',
+            'پرور'     => 'parvar',
+            'سرور'     => 'sarvar',
+            'کاوسی'    => 'kavosi',
+            'هیوا'     => 'hiva',
+        ];
+    }
 }
